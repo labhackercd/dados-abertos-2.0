@@ -1,0 +1,840 @@
+Class Name;Current Object Name;Current Description;New Object Name;New Description
+Métricas;Qtd  Proposição;Medida que representa a quantidade de Proposições. ;Qtd  Proposição;Medida que representa a quantidade de Proposições. 
+Métricas;Ide Tipo Norma Juridica;;Ide Tipo Norma Juridica;
+Métricas;Ide Proposicao Artificial;;Ide Proposicao Artificial;
+Métricas;Ide Parlamentar;;Ide Parlamentar;
+Métricas;Ide Situacao Proposicao;;Ide Situacao Proposicao;
+Métricas;Ide Sessao Legislativa;;Ide Sessao Legislativa;
+Métricas;Ide Partido Politico;;Ide Partido Politico;
+Métricas;Ide Tipo Proposicao Artificial;;Ide Tipo Proposicao Artificial;
+Métricas;Ide Uf;;Ide Uf;
+Métricas;Ide Orgao;;Ide Orgao;
+Métricas;Ide Area Tematica;;Ide Area Tematica;
+Métricas;Ide Tempo Data Transf Lei;;Ide Tempo Data Transf Lei;
+Métricas;Ide Tempo Data Apresentacao;;Ide Tempo Data Apresentacao;
+Métricas;Ide Sessao Legislativa Lei;;Ide Sessao Legislativa Lei;
+Situação Proposição;Situação Proposição;"Identifica as proposições em diferentes momentos:
+Transformada em Lei,
+Transformada em Lei com Veto Parcial,
+Proposições com Veto Total";Situação Proposição;"Identifica as proposições em diferentes momentos:
+Transformada em Lei,
+Transformada em Lei com Veto Parcial,
+Proposições com Veto Total"
+Proposição Apresentada;Ide Apresentada;;Ide Apresentada;
+Proposição Apresentada;Proposição Apresentada;Identifica a proposição quanto a sua apresentação. Consideram-se apresentadas, nos termos do Art. 101 do Regimento Interno da CD, as proposições cujas cópias devidamente autenticadas e assinadas pelos respectivos autores sejam recebidas pelos órgãos competentes.  ;Proposição Apresentada;Identifica a proposição quanto a sua apresentação. Consideram-se apresentadas, nos termos do Art. 101 do Regimento Interno da CD, as proposições cujas cópias devidamente autenticadas e assinadas pelos respectivos autores sejam recebidas pelos órgãos competentes.  
+Tipo Proposição;Sigla Tipo Proposicão;Identifica as diversas proposições de acordo com a sua sigla. As siglas são:    PEC - Proposta de Emenda à Constituição,  PLP Projeto de Lei Complementar, PL Projeto de Lei, MPV Medida Provisória, PDC Projeto de Decreto Legislativo, PRC  Projeto de Resolução da Câmara dos Deputados.                                                       ;Sigla Tipo Proposicão;Identifica as diversas proposições de acordo com a sua sigla. As siglas são:    PEC - Proposta de Emenda à Constituição,  PLP Projeto de Lei Complementar, PL Projeto de Lei, MPV Medida Provisória, PDC Projeto de Decreto Legislativo, PRC  Projeto de Resolução da Câmara dos Deputados.                                                       
+Tipo Proposição;DescriçãoTipo Proposicão;Lista os tipos de proposições pelo seu nome completo.  Toda matéria sujeita a deliberação da Câmara dos Deputados é considerada uma proposição. Por exemplo: Proposta de Emenda à Constituição, Projeto de lei, Projeto de lei Complementar, Projeto de Decreto Legislatico;DescriçãoTipo Proposicão;Lista os tipos de proposições pelo seu nome completo.  Toda matéria sujeita a deliberação da Câmara dos Deputados é considerada uma proposição. Por exemplo: Proposta de Emenda à Constituição, Projeto de lei, Projeto de lei Complementar, Projeto de Decreto Legislatico
+Tipo Proposição;Des Tipo Proposicao Pai1;;Des Tipo Proposicao Pai1;
+Tipo Proposição;Des Tipo Proposicao Pai2;;Des Tipo Proposicao Pai2;
+Tipo Proposição;Des Tipo Proposicao Pai3;;Des Tipo Proposicao Pai3;
+Tipo Proposição;Des Tipo Proposicao Pai4;;Des Tipo Proposicao Pai4;
+Tipo Proposição;Ide Tipo Proposicao Artf Pai1;;Ide Tipo Proposicao Artf Pai1;
+Tipo Proposição;Ide Tipo Proposicao Artf Pai2;;Ide Tipo Proposicao Artf Pai2;
+Tipo Proposição;Ide Tipo Proposicao Artf Pai3;;Ide Tipo Proposicao Artf Pai3;
+Tipo Proposição;Ide Tipo Proposicao Artf Pai4;;Ide Tipo Proposicao Artf Pai4;
+Tipo Proposição;Des Completa;;Des Completa;
+Tipo Proposição;Ind Ativo;Apresenta valor 0 e 1 que representam, respectivamente, proposições ativas e inativas. Proposições ativas são aquelas que ainda estão tramitando na Câmara dos Deputados. Já as proposições inativas são aquelas que tiveram tramitação encerrada na Câmara dos Deputados;Ind Ativo;Apresenta valor 0 e 1 que representam, respectivamente, proposições ativas e inativas. Proposições ativas são aquelas que ainda estão tramitando na Câmara dos Deputados. Já as proposições inativas são aquelas que tiveram tramitação encerrada na Câmara dos Deputados
+Tipo Proposição;Des Ativo;Mostra a descrição da situação da proposição: ativa ou inativa;Des Ativo;Mostra a descrição da situação da proposição: ativa ou inativa
+Proposição;Num Proposição;Identifica o número de entrada da proposição. Toda proposição apresentada recebe um número sequencial dentro de cada legislatura;Num Proposição;Identifica o número de entrada da proposição. Toda proposição apresentada recebe um número sequencial dentro de cada legislatura
+Proposição;Ano Proposição;Identifica o ano de apresentação da proposição;Ano Proposição;Identifica o ano de apresentação da proposição
+Proposição;Nome Proposição;Identifica a epígrafe da proposição. A epígrafe é a parte da lei grafada em caracteres maiúsculos, formada pelo título designativo da espécie normativa (lei, lei complementar, decreto), número e ano da publicação .;Nome Proposição;Identifica a epígrafe da proposição. A epígrafe é a parte da lei grafada em caracteres maiúsculos, formada pelo título designativo da espécie normativa (lei, lei complementar, decreto), número e ano da publicação .
+Proposição;Sigla Tipo Proposicao;;Sigla Tipo Proposicao;
+Proposição;Ind Ativo;;Ind Ativo;
+Proposição;Texto Ementa;"Lista os textos das ementas das proposições apresentadas. Ementa é a apresentação resumida dos pontos relevantes de uma proposição 
+
+ ";Texto Ementa;"Lista os textos das ementas das proposições apresentadas. Ementa é a apresentação resumida dos pontos relevantes de uma proposição 
+
+ "
+Proposição;Des Ativo;;Des Ativo;
+Proposição;Cod Proposicao Origem;;Cod Proposicao Origem;
+Proposição;Ide Proposicao Artificial;;Ide Proposicao Artificial;
+Área Temática da Apresentação;Nome Área Temática;Apresenta lista com os temas que são cadastradas as proposições no momento da apresentação. Cada proposição é classificada em um ou mais temas.;Nome Área Temática;Apresenta lista com os temas que são cadastradas as proposições no momento da apresentação. Cada proposição é classificada em um ou mais temas.
+Área Temática da Apresentação;Cod Area Tematica Origem;;Cod Area Tematica Origem;
+Dim Area Bridge;Ide Area Tematica;;Ide Area Tematica;
+Dim Area Bridge;Ide Area Tematica Bridge;;Ide Area Tematica Bridge;
+Dim Area Bridge;Fator Ajuste;;Fator Ajuste;
+Dim Area Tematica Bridge;Ide Area Tematica Bridge;;Ide Area Tematica Bridge;
+Dim Area Tematica Bridge;Ide Proposicao Origem;;Ide Proposicao Origem;
+Área Temática da Transf. em Lei;Ide Area Tematica;;Ide Area Tematica;
+Área Temática da Transf. em Lei;Nome Área Temática Transf. Lei;Apresenta a lista com os temas que são cadastradas as proposições após terem sido transformadas em lei. Uma proposição pode ter sido cadastrada em um tema e quando transformada em lei pode ser classificada em outro tema;Nome Área Temática Transf. Lei;Apresenta a lista com os temas que são cadastradas as proposições após terem sido transformadas em lei. Uma proposição pode ter sido cadastrada em um tema e quando transformada em lei pode ser classificada em outro tema
+Área Temática da Transf. em Lei;Cod Area Tematica Origem Transf. Lei;;Cod Area Tematica Origem Transf. Lei;
+Sessão Leg. da Apresentação;Num Legislatura Apresentação;"Número que identifica uma Legislatura que é o  espaço temporal de maior duração em que o Congresso Nacional exerce suas atividades denomina-se legislatura, que dura quatro anos e coincide com o mandato dos Deputados Federais. A legislatura tem inicio em 1° de fevereiro do ano seguinte ao da eleição e se encerra em 31 de janeiro do ano seguinte à próxima. Em cada legislatura ocorrem quatro sessões legislativas ordinárias e recessos parlamentares. Podem ocorrer também sessões legislativas extraordinárias. Por exemplo:
+51ª legislatura: de 01/02/1999 a 31/01/2003
+52ª legislatura: de 01/02/2003 a 31/01/2007
+53ª legislatura: de 01/02/2007 a 31/01/2011
+54ª legislatura: de 01/02/2011 a 31/01/2015
+";Num Legislatura Apresentação;"Número que identifica uma Legislatura que é o  espaço temporal de maior duração em que o Congresso Nacional exerce suas atividades denomina-se legislatura, que dura quatro anos e coincide com o mandato dos Deputados Federais. A legislatura tem inicio em 1° de fevereiro do ano seguinte ao da eleição e se encerra em 31 de janeiro do ano seguinte à próxima. Em cada legislatura ocorrem quatro sessões legislativas ordinárias e recessos parlamentares. Podem ocorrer também sessões legislativas extraordinárias. Por exemplo:
+51ª legislatura: de 01/02/1999 a 31/01/2003
+52ª legislatura: de 01/02/2003 a 31/01/2007
+53ª legislatura: de 01/02/2007 a 31/01/2011
+54ª legislatura: de 01/02/2011 a 31/01/2015
+"
+Sessão Leg. da Apresentação;Num Sessao Legislativa Apresentação;Corresponde ao número que identifica a sessão legislativa. A sessão legislativa correspondente ao ano de trabalho parlamentar , iniciando-se em 02 de fevereiro e encerrando-se em 22 de dezembro. Cada legislatura possui 4 sessões legislativas ordinárias. Por exemplo:                                                          54ª legislatura                                                         1ª sessão legislativa: de 02/02/2011 a 22/12/2011       2ª sessão legislativa: 02/02/2012 a 22/12/2012                  3ª sessão legislativa: 02/02/2013 a 22/12/2013                 4ª sessão legislativa: 02/02/2014 a 22/12/2014;Num Sessao Legislativa Apresentação;Corresponde ao número que identifica a sessão legislativa. A sessão legislativa correspondente ao ano de trabalho parlamentar , iniciando-se em 02 de fevereiro e encerrando-se em 22 de dezembro. Cada legislatura possui 4 sessões legislativas ordinárias. Por exemplo:                                                          54ª legislatura                                                         1ª sessão legislativa: de 02/02/2011 a 22/12/2011       2ª sessão legislativa: 02/02/2012 a 22/12/2012                  3ª sessão legislativa: 02/02/2013 a 22/12/2013                 4ª sessão legislativa: 02/02/2014 a 22/12/2014
+Sessão Leg. da Apresentação;Sessão_Leg_Tipo;Identifica as sessões legislativas quanto ao seu tipo: ordinária ou extraordinária. As sessões legislativas ordinárias  correspondem ao ano de trabalho parlamentar , iniciando-se em 02 de fevereiro e encerrando-se em 22 de dezembro, com recesso parlamentar de 18 a 31 de julho. A sessão legislativa extraordinária é o período de trabalho do Congresso Nacional fora da sessão legislativa ordinária, ou seja, entre 18 e 31 de julho;Sessão_Leg_Tipo;Identifica as sessões legislativas quanto ao seu tipo: ordinária ou extraordinária. As sessões legislativas ordinárias  correspondem ao ano de trabalho parlamentar , iniciando-se em 02 de fevereiro e encerrando-se em 22 de dezembro, com recesso parlamentar de 18 a 31 de julho. A sessão legislativa extraordinária é o período de trabalho do Congresso Nacional fora da sessão legislativa ordinária, ou seja, entre 18 e 31 de julho
+Sessão Leg. da Apresentação;Tipo Sessão Legislativa Apresentação;Identifica as proposições quanto ao tipo de sessão legislativa em que foi apresentada: sessão legislativa ordinária ou extraordinária;Tipo Sessão Legislativa Apresentação;Identifica as proposições quanto ao tipo de sessão legislativa em que foi apresentada: sessão legislativa ordinária ou extraordinária
+Sessão Leg. da Apresentação;Cod Tipo Sessao Legislativa Apresentação;;Cod Tipo Sessao Legislativa Apresentação;
+Sessão Leg. da Apresentação;Data Início Legislatura;Apresenta a data completa de início de cada legislatura:                                                            51ª Legislatura: 1/2/1999                                            52ª Legislatura: 1/2/2003                                        53ª Legislatura: 1/2/2007                                        54ª Legislatura: 1/2/2011;Data Início Legislatura;Apresenta a data completa de início de cada legislatura:                                                            51ª Legislatura: 1/2/1999                                            52ª Legislatura: 1/2/2003                                        53ª Legislatura: 1/2/2007                                        54ª Legislatura: 1/2/2011
+Sessão Leg. da Apresentação;Data Fim Legislatura;Apresenta a data completa de fim de cada legislatura:                                                            51ª Legislatura: 31/1/2003                                           52ª Legislatura: 31/1/2007                                        53ª Legislatura: 31/1/2011                                        54ª Legislatura: 31/1/2015;Data Fim Legislatura;Apresenta a data completa de fim de cada legislatura:                                                            51ª Legislatura: 31/1/2003                                           52ª Legislatura: 31/1/2007                                        53ª Legislatura: 31/1/2011                                        54ª Legislatura: 31/1/2015
+Sessão Leg. da Apresentação;Data Início Sessão Legislativa;Mostra a data completa de início das seções legislativas em cada legislatura. Por exemplo: 54ª legislatura: 1/2/2011 (sessão preparatória e de eleição) 2/2/2011 (primeiro dia da 1ª sessão legislativa);Data Início Sessão Legislativa;Mostra a data completa de início das seções legislativas em cada legislatura. Por exemplo: 54ª legislatura: 1/2/2011 (sessão preparatória e de eleição) 2/2/2011 (primeiro dia da 1ª sessão legislativa)
+Sessão Leg. da Apresentação;Data Inicial Recesso;"Apresenta a data completa do início da interrupção temporária das atividades legislativas, conhecida como recesso parlamentar. Por exemplo: 52ª Legislatura: 30/6/2003; 13/7/2004                                   ";Data Inicial Recesso;"Apresenta a data completa do início da interrupção temporária das atividades legislativas, conhecida como recesso parlamentar. Por exemplo: 52ª Legislatura: 30/6/2003; 13/7/2004                                   "
+Sessão Leg. da Apresentação;Data Fim Sessão Legislativa;Mostra a data completa de fim das seções legislativas em cada legislatura. Por exemplo: 54ª legislatura: 1/2/2011 (fim da sessão preparatória e de eleição) 22/12/2011 (último dia dia da 1ª sessão legislativa);Data Fim Sessão Legislativa;Mostra a data completa de fim das seções legislativas em cada legislatura. Por exemplo: 54ª legislatura: 1/2/2011 (fim da sessão preparatória e de eleição) 22/12/2011 (último dia dia da 1ª sessão legislativa)
+Sessão Leg. da Apresentação;Data Final Recesso;"Apresenta a data completa do fim da interrupção temporária das atividades legislativas, conhecida como recesso parlamentar. Por exemplo: 52ª Legislatura: 1/8/2003; 1/8/2004                                   ";Data Final Recesso;"Apresenta a data completa do fim da interrupção temporária das atividades legislativas, conhecida como recesso parlamentar. Por exemplo: 52ª Legislatura: 1/8/2003; 1/8/2004                                   "
+Sessão Leg. da Apresentação;Ide Sessao Legislativa;;Ide Sessao Legislativa;
+Sessão Leg. da Transf. em Lei;Num Legislatura Transf em Lei;Apresenta o número da legislatura em que a proposição foi transformada em lei;Num Legislatura Transf em Lei;Apresenta o número da legislatura em que a proposição foi transformada em lei
+Sessão Leg. da Transf. em Lei;Num Sessão Legislativa Transf em Lei;Classifica as proposições na sessão legislativa corresponde à data de sua transformalção em norma jurídica;Num Sessão Legislativa Transf em Lei;Classifica as proposições na sessão legislativa corresponde à data de sua transformalção em norma jurídica
+Sessão Leg. da Transf. em Lei;Tipo Sessão Legislativa Trans em Lei;Apresenta o tipo de sessão legislativa (ordinária ou extraordinária) em que a proposição foi transformada em lei. ;Tipo Sessão Legislativa Trans em Lei;Apresenta o tipo de sessão legislativa (ordinária ou extraordinária) em que a proposição foi transformada em lei. 
+Sessão Leg. da Transf. em Lei;Cod Tipo Sessao Legislativa;;Cod Tipo Sessao Legislativa;
+Sessão Leg. da Transf. em Lei;Ide Sessao Legislativa;;Ide Sessao Legislativa;
+Sessão Leg. da Transf. em Lei;Data Início Legislatura;Apresenta a data completa de início de cada legislatura:                                                            51ª Legislatura: 1/2/1999                                            52ª Legislatura: 1/2/2003                                        53ª Legislatura: 1/2/2007                                        54ª Legislatura: 1/2/2011;Data Início Legislatura;Apresenta a data completa de início de cada legislatura:                                                            51ª Legislatura: 1/2/1999                                            52ª Legislatura: 1/2/2003                                        53ª Legislatura: 1/2/2007                                        54ª Legislatura: 1/2/2011
+Sessão Leg. da Transf. em Lei;Data Fim Legislatura;Apresenta a data completa de fim de cada legislatura:                                                            51ª Legislatura: 31/1/2003                                           52ª Legislatura: 31/1/2007                                        53ª Legislatura: 31/1/2011                                        54ª Legislatura: 31/1/2015;Data Fim Legislatura;Apresenta a data completa de fim de cada legislatura:                                                            51ª Legislatura: 31/1/2003                                           52ª Legislatura: 31/1/2007                                        53ª Legislatura: 31/1/2011                                        54ª Legislatura: 31/1/2015
+Sessão Leg. da Transf. em Lei;Dat Inicio Sessão Legislativa;Mostra a data completa de início das sessões legislativas em cada legislatura. Por exemplo: 54ª legislatura: 1/2/2011 (corresponde à sessão preparatória e de eleição) 2/2/2011 (corresponde ao primeiro dia da 1ª sessão legislativa);Dat Inicio Sessão Legislativa;Mostra a data completa de início das sessões legislativas em cada legislatura. Por exemplo: 54ª legislatura: 1/2/2011 (corresponde à sessão preparatória e de eleição) 2/2/2011 (corresponde ao primeiro dia da 1ª sessão legislativa)
+Sessão Leg. da Transf. em Lei;Dat Fim Sessão Legislativa;Mostra a data completa de fim das seções legislativas em cada legislatura. Por exemplo: 54ª legislatura: 1/2/2011 (fim da sessão preparatória e de eleição) 22/12/2011 (último dia dia da 1ª sessão legislativa);Dat Fim Sessão Legislativa;Mostra a data completa de fim das seções legislativas em cada legislatura. Por exemplo: 54ª legislatura: 1/2/2011 (fim da sessão preparatória e de eleição) 22/12/2011 (último dia dia da 1ª sessão legislativa)
+Sessão Leg. da Transf. em Lei;Des Tipo Sessão Legislativa;Apresenta a descrição do tipo de sessões legislativas: Ordinárias, Extraordinárias e entre sessões;Des Tipo Sessão Legislativa;Apresenta a descrição do tipo de sessões legislativas: Ordinárias, Extraordinárias e entre sessões
+Sessão Leg. da Transf. em Lei;Data Inicial Recesso;"Apresenta a data completa do início da interrupção temporária das atividades legislativas, conhecida como recesso parlamentar. Por exemplo: 52ª Legislatura: 30/6/2003; 13/7/2004                                   ";Data Inicial Recesso;"Apresenta a data completa do início da interrupção temporária das atividades legislativas, conhecida como recesso parlamentar. Por exemplo: 52ª Legislatura: 30/6/2003; 13/7/2004                                   "
+Sessão Leg. da Transf. em Lei;Data Final Recesso;"Apresenta a data completa do fim da interrupção temporária das atividades legislativas, conhecida como recesso parlamentar. Por exemplo: 52ª Legislatura: 1/8/2003; 1/8/2004                                   ";Data Final Recesso;"Apresenta a data completa do fim da interrupção temporária das atividades legislativas, conhecida como recesso parlamentar. Por exemplo: 52ª Legislatura: 1/8/2003; 1/8/2004                                   "
+Sessão Legislativa Veto Total;Num Legislatura Veto Total;Apresenta o número da legislatura em que a proposição sofreu veto total;Num Legislatura Veto Total;Apresenta o número da legislatura em que a proposição sofreu veto total
+Sessão Legislativa Veto Total;Num Sessao Legislativa Veto Total;Apresenta o número da sessão legislativa em que a proposição sofreu o veto total;Num Sessao Legislativa Veto Total;Apresenta o número da sessão legislativa em que a proposição sofreu o veto total
+Sessão Legislativa Veto Total;Ide Sessao Legislativa;;Ide Sessao Legislativa;
+Sessão Legislativa Veto Total;Tipo Sessao Legislativa Veto Total;Apresenta o tipo de sessão legislativa (ordinária, extraordinária, entre sessões) em que a proposição sofreu veto total;Tipo Sessao Legislativa Veto Total;Apresenta o tipo de sessão legislativa (ordinária, extraordinária, entre sessões) em que a proposição sofreu veto total
+Sessão Legislativa Veto Total;Cod Tipo Sessao Legislativa Veto Total;;Cod Tipo Sessao Legislativa Veto Total;
+Sessão Legislativa Veto Total;Dat Inicio Legislatura;Apresenta a data completa de início de cada legislatura em que a proposição sofreu veto total                     51ª Legislatura: 1/2/1999                                            52ª Legislatura: 1/2/2003                                        53ª Legislatura: 1/2/2007                                        54ª Legislatura: 1/2/2011;Dat Inicio Legislatura;Apresenta a data completa de início de cada legislatura em que a proposição sofreu veto total                     51ª Legislatura: 1/2/1999                                            52ª Legislatura: 1/2/2003                                        53ª Legislatura: 1/2/2007                                        54ª Legislatura: 1/2/2011
+Sessão Legislativa Veto Total;Dat Fim Legislatura;Apresenta a data completa de fim de cada legislatura em que a proposição sofreu veto total                     51ª Legislatura: 31/1/2003                                           52ª Legislatura: 31/1/2007                                        53ª Legislatura: 31/1/2011                                        54ª Legislatura: 31/1/2015;Dat Fim Legislatura;Apresenta a data completa de fim de cada legislatura em que a proposição sofreu veto total                     51ª Legislatura: 31/1/2003                                           52ª Legislatura: 31/1/2007                                        53ª Legislatura: 31/1/2011                                        54ª Legislatura: 31/1/2015
+Sessão Legislativa Veto Total;Dat Inicio Sessao Legislativa;Mostra a data completa de início das sessões legislativas em cada legislatura em que a proposição sofreu veto total. Por exemplo: 54ª legislatura: 1/2/2011 (corresponde à sessão preparatória e de eleição) 2/2/2011 (corresponde ao primeiro dia da 1ª sessão legislativa);Dat Inicio Sessao Legislativa;Mostra a data completa de início das sessões legislativas em cada legislatura em que a proposição sofreu veto total. Por exemplo: 54ª legislatura: 1/2/2011 (corresponde à sessão preparatória e de eleição) 2/2/2011 (corresponde ao primeiro dia da 1ª sessão legislativa)
+Sessão Legislativa Veto Total;Dat Fim Sessao Legislativa;Mostra a data completa de fim das sessões legislativas em cada legislatura em que a proposição sofreu veto total. Por exemplo: 54ª legislatura: 1/2/2011 (corresponde ao fim da sessão preparatória e de eleição) 22/12/2011 (corresponde ao último dia dia da 1ª sessão legislativa);Dat Fim Sessao Legislativa;Mostra a data completa de fim das sessões legislativas em cada legislatura em que a proposição sofreu veto total. Por exemplo: 54ª legislatura: 1/2/2011 (corresponde ao fim da sessão preparatória e de eleição) 22/12/2011 (corresponde ao último dia dia da 1ª sessão legislativa)
+Sessão Legislativa Veto Total;Dat Inicial Recesso;"Apresenta a data completa do início da interrupção temporária das atividades legislativas, conhecida como recesso parlamentar em que houve veto total das proposições. Por exemplo: 52ª Legislatura: 30/6/2003; 13/7/2004                                   ";Dat Inicial Recesso;"Apresenta a data completa do início da interrupção temporária das atividades legislativas, conhecida como recesso parlamentar em que houve veto total das proposições. Por exemplo: 52ª Legislatura: 30/6/2003; 13/7/2004                                   "
+Sessão Legislativa Veto Total;Dat Final Recesso;"Apresenta a data completa do fim da interrupção temporária das atividades legislativas, conhecida como recesso parlamentar em que houve veto total das proposições. Por exemplo: 52ª Legislatura: 1/8/2003; 1/8/2004                                   ";Dat Final Recesso;"Apresenta a data completa do fim da interrupção temporária das atividades legislativas, conhecida como recesso parlamentar em que houve veto total das proposições. Por exemplo: 52ª Legislatura: 1/8/2003; 1/8/2004                                   "
+Tipo Norma Jurídica;Sigla Norma Jurídica;Apresenta a sigla correspondente a cada norma jurídica existente. Por exemplo:                                 LCP: Lei Complementar                                         MPV: Media Provisória                                        RCD: Resolução da Câmara dos Deputados;Sigla Norma Jurídica;Apresenta a sigla correspondente a cada norma jurídica existente. Por exemplo:                                 LCP: Lei Complementar                                         MPV: Media Provisória                                        RCD: Resolução da Câmara dos Deputados
+Tipo Norma Jurídica;Des Tipo Norma Jurídica;Mostra o nome completo de cada norma jurídica existente. Por exemplo: Lei nº 8.112, de 11 de dezembro de 1990;Des Tipo Norma Jurídica;Mostra o nome completo de cada norma jurídica existente. Por exemplo: Lei nº 8.112, de 11 de dezembro de 1990
+Tipo Norma Jurídica;Cod Tipo Norma Juridica Origem;;Cod Tipo Norma Juridica Origem;
+Tipo Autor;Ide Tipo Autor;;Ide Tipo Autor;
+Tipo Autor;Cod Tipo Autor Origem;;Cod Tipo Autor Origem;
+Tipo Autor;Descrição Tipo Autor (sem hierarquia);;Descrição Tipo Autor (sem hierarquia);
+Tipo Autor;Tex Classe;;Tex Classe;
+Tipo Autor;Ide Tipo Autor Pai N1;;Ide Tipo Autor Pai N1;
+Tipo Autor;Cod Tipo Autor Pai Origem N1;;Cod Tipo Autor Pai Origem N1;
+Tipo Autor;Des Tipo Autor Pai N1;;Des Tipo Autor Pai N1;
+Tipo Autor;Ide Tipo Autor Pai N2;;Ide Tipo Autor Pai N2;
+Tipo Autor;Cod Tipo Autor Pai Origem N2;;Cod Tipo Autor Pai Origem N2;
+Tipo Autor;Des Tipo Autor Pai N2;;Des Tipo Autor Pai N2;
+Tipo Autor;Ide Tipo Autor Pai N3;;Ide Tipo Autor Pai N3;
+Tipo Autor;Cod Tipo Autor Pai Origem N3;;Cod Tipo Autor Pai Origem N3;
+Tipo Autor;Des Tipo Autor Pai N3;;Des Tipo Autor Pai N3;
+Tipo Autor;Ide Tipo Autor Pai N4;;Ide Tipo Autor Pai N4;
+Tipo Autor;Cod Tipo Autor Pai Origem N4;;Cod Tipo Autor Pai Origem N4;
+Tipo Autor;Des Tipo Autor Pai N4;;Des Tipo Autor Pai N4;
+Tipo Autor;Ide Tipo Autor Pai N5;;Ide Tipo Autor Pai N5;
+Tipo Autor;Cod Tipo Autor Pai Origem N5;;Cod Tipo Autor Pai Origem N5;
+Tipo Autor;Des Tipo Autor Pai N5;;Des Tipo Autor Pai N5;
+Tipo Autor;Ide Tipo Autor Pai N6;;Ide Tipo Autor Pai N6;
+Tipo Autor;Cod Tipo Autor Pai Origem N6;;Cod Tipo Autor Pai Origem N6;
+Tipo Autor;Des Tipo Autor Pai N6;;Des Tipo Autor Pai N6;
+Tipo Autor;Nivel;;Nivel;
+Órgão;Nome Órgão;Apresenta o nome dos órgãos responsáveis por apresentar proposições. Por exemplo: Superior Tribunal de Justiça, Senado Federal.;Nome Órgão;Apresenta o nome dos órgãos responsáveis por apresentar proposições. Por exemplo: Superior Tribunal de Justiça, Senado Federal.
+Órgão;Ind Ativo;;Ind Ativo;
+Órgão;Des Ativo;;Des Ativo;
+Órgão;Cod Orgao Origem;;Cod Orgao Origem;
+Órgão;Des Apelido;;Des Apelido;
+Parlamentar;Nome Parlamentar;"Apresenta o nome adotado pelo Parlamentar ao tomar posse do seu mandato . Compõe-se de dois elementos: um prenome e o nome; dois nomes; ou dois prenomes, salvo, a juízo do Presidente da Casa legislativa , que poderá alterar essa regra para que não ocorram confusões. RICD, Art. 13 .";Nome Parlamentar;"Apresenta o nome adotado pelo Parlamentar ao tomar posse do seu mandato . Compõe-se de dois elementos: um prenome e o nome; dois nomes; ou dois prenomes, salvo, a juízo do Presidente da Casa legislativa , que poderá alterar essa regra para que não ocorram confusões. RICD, Art. 13 ."
+Parlamentar;Nome Civil Parlamentar;Apresenta o nome civil do parlamentar. Por Exemplo: Dep. Tiririca ->Nome civil: Francisco Everardo Oliveira Silva;Nome Civil Parlamentar;Apresenta o nome civil do parlamentar. Por Exemplo: Dep. Tiririca ->Nome civil: Francisco Everardo Oliveira Silva
+Parlamentar;Des Tipo Parlamentar;Mostra a descrição do tipo do parlamentar: Deputado ou Senador;Des Tipo Parlamentar;Mostra a descrição do tipo do parlamentar: Deputado ou Senador
+Parlamentar;Cod Tipo Parlamentar;;Cod Tipo Parlamentar;
+Parlamentar;Cod Sexo;Mostra as proposições organizadas pelo sexo do autor;Cod Sexo;Mostra as proposições organizadas pelo sexo do autor
+Parlamentar;Cod Parlamentar Origem;;Cod Parlamentar Origem;
+Partido Político;Nome Partido Político;Recupera as proposições conforme o partido político do autor.;Nome Partido Político;Recupera as proposições conforme o partido político do autor.
+Partido Político;Sigla Partido Político;Retorna as proposições organizadas pelas siglas do partido político do autor da proposição;Sigla Partido Político;Retorna as proposições organizadas pelas siglas do partido político do autor da proposição
+Partido Político;Cod Partido Político;;Cod Partido Político;
+UF;Região;Retorna as proposições de acordo com a região (Centro-oeste, Nordeste, Norte, Sudeste, Sul) do autor;Região;Retorna as proposições de acordo com a região (Centro-oeste, Nordeste, Norte, Sudeste, Sul) do autor
+UF;Sigla UF;Retornas as proposições de acordo com a sigla das regiões do autor: Por exemplo: DF, PI, SP, RJ;Sigla UF;Retornas as proposições de acordo com a sigla das regiões do autor: Por exemplo: DF, PI, SP, RJ
+UF;Nome UF;Recupera as proposições conforme a unidade federativa de representação do autor. Por exemplo: Ceará, Rio Grande do Sul, Tocantins;Nome UF;Recupera as proposições conforme a unidade federativa de representação do autor. Por exemplo: Ceará, Rio Grande do Sul, Tocantins
+UF;Ide Uf;;Ide Uf;
+Data de Apresentação;Data Apresentação Completa;Data de apresentação da Proposição no formato dd/mm/aaaa.;Data Apresentação Completa;Data de apresentação da Proposição no formato dd/mm/aaaa.
+Data de Apresentação;Ano;Retorna as proposições de acordo com o ano apresentação;Ano;Retorna as proposições de acordo com o ano apresentação
+Data de Apresentação;Mes;Retorna as proposições de acordo com o mês de apresentação;Mes;Retorna as proposições de acordo com o mês de apresentação
+Data de Apresentação;Dia;Retorna as proposições de acordo com o dia de apresentação ;Dia;Retorna as proposições de acordo com o dia de apresentação 
+Data de Apresentação;Nome mes;Retona as proposições de acordo com o nome do mês de apresentação;Nome mes;Retona as proposições de acordo com o nome do mês de apresentação
+Data de Apresentação;Texsemestre;Retona as proposições de acordo com o semestre de apresentação (1º semestre ou 2º semestre);Texsemestre;Retona as proposições de acordo com o semestre de apresentação (1º semestre ou 2º semestre)
+Data de Apresentação;Codsemestre;Retona as proposições de acordo com o semestre de apresentação (1º ou 2º);Codsemestre;Retona as proposições de acordo com o semestre de apresentação (1º ou 2º)
+Data de Apresentação;Idetempo;;Idetempo;
+Data de Apresentação;Codquadrimestre;Recupera as proposições apresentadas de acordo com o quadrimestre de apresentação (1º, 2º, 3º);Codquadrimestre;Recupera as proposições apresentadas de acordo com o quadrimestre de apresentação (1º, 2º, 3º)
+Data de Apresentação;Texquadrimestre;Recupera as proposições apresentadas de acordo com o quadrimestre de apresentação (1º semestre, 2º semestre, 3º semestre);Texquadrimestre;Recupera as proposições apresentadas de acordo com o quadrimestre de apresentação (1º semestre, 2º semestre, 3º semestre)
+Data de Apresentação;Codtrimestre;Recupera as proposições apresentadas de acordo com o trimestre de apresentação (1º, 2º, 3º, 4º);Codtrimestre;Recupera as proposições apresentadas de acordo com o trimestre de apresentação (1º, 2º, 3º, 4º)
+Data de Apresentação;Textrimestre;Recupera as proposições apresentadas de acordo com o trimestre de apresentação (1º semestre, 2º semestre, 3º semestre, 4º semestre);Textrimestre;Recupera as proposições apresentadas de acordo com o trimestre de apresentação (1º semestre, 2º semestre, 3º semestre, 4º semestre)
+Data de Apresentação;Codbimestre;Retorna as proposições de acordo com o bimestre de apresentação (1º, 2º, 3º, 4º, 5º, 6º);Codbimestre;Retorna as proposições de acordo com o bimestre de apresentação (1º, 2º, 3º, 4º, 5º, 6º)
+Data de Apresentação;Texbimestre;Retorna as proposições de acordo com o bimestre de apresentação (1º semestre, 2º semestre, 3º semestre, 4º semestre, 5º semestre, 6º semestre);Texbimestre;Retorna as proposições de acordo com o bimestre de apresentação (1º semestre, 2º semestre, 3º semestre, 4º semestre, 5º semestre, 6º semestre)
+Data de Apresentação;Codsemana;Recupera as proposições de acordo com a semana de apresentação. Um ano de 365 dias possui 52 semanas;Codsemana;Recupera as proposições de acordo com a semana de apresentação. Um ano de 365 dias possui 52 semanas
+Data de Apresentação;Texsemana;Recupera as proposições de acordo com a semana de apresentação. Por exemplo: de 20/09 a 27/09;Texsemana;Recupera as proposições de acordo com a semana de apresentação. Por exemplo: de 20/09 a 27/09
+Data de Apresentação;Texdiasemana;Retronas as proposições de acordo com o dia da semana de apresentação;Texdiasemana;Retronas as proposições de acordo com o dia da semana de apresentação
+Data de Apresentação;Coddiajuliano;;Coddiajuliano;
+Data de Apresentação;Indferiado;Apresenta a opção de escolher ou não a indicação de feriado;Indferiado;Apresenta a opção de escolher ou não a indicação de feriado
+Data de Apresentação;Indexpediente;Apresenta a opção de escolher ou não a indicação de expediente;Indexpediente;Apresenta a opção de escolher ou não a indicação de expediente
+Data de Apresentação;Texnaoexpediente;Apresenta os nomes das possibilidades em que não há expediente;Texnaoexpediente;Apresenta os nomes das possibilidades em que não há expediente
+Data Transformação em Lei;Data Transformação Completa;Apresenta a data completa de transformação da proposição em lei;Data Transformação Completa;Apresenta a data completa de transformação da proposição em lei
+Data Transformação em Lei;Ano;Retorna as proposições de acordo com o ano de transformação em lei;Ano;Retorna as proposições de acordo com o ano de transformação em lei
+Data Transformação em Lei;Mes;Retorna as proposições de acordo com o mês de transformação em lei;Mes;Retorna as proposições de acordo com o mês de transformação em lei
+Data Transformação em Lei;Dia;Retorna as proposições de acordo com o dia de transformação em lei;Dia;Retorna as proposições de acordo com o dia de transformação em lei
+Data Transformação em Lei;Nome mes;Retona as proposições de acordo com o nome do mês de transformação em lei;Nome mes;Retona as proposições de acordo com o nome do mês de transformação em lei
+Data Transformação em Lei;Texsemana;Recupera as proposições de acordo com a semana de transformação em lei. Por exemplo: de 20/09 a 27/09;Texsemana;Recupera as proposições de acordo com a semana de transformação em lei. Por exemplo: de 20/09 a 27/09
+Data Transformação em Lei;Idetempo;;Idetempo;
+Data Transformação em Lei;Codsemestre;Retona as proposições de acordo com o semestre de transformação em lei (1º ou 2º);Codsemestre;Retona as proposições de acordo com o semestre de transformação em lei (1º ou 2º)
+Data Transformação em Lei;Texsemestre;Retona as proposições de acordo com o semestre de transformação em lei (1º semestre ou 2º semestre);Texsemestre;Retona as proposições de acordo com o semestre de transformação em lei (1º semestre ou 2º semestre)
+Data Transformação em Lei;Codquadrimestre;Recupera as proposições apresentadas de acordo com o quadrimestre de transformação em lei (1º, 2º, 3º);Codquadrimestre;Recupera as proposições apresentadas de acordo com o quadrimestre de transformação em lei (1º, 2º, 3º)
+Data Transformação em Lei;Texquadrimestre;Recupera as proposições apresentadas de acordo com o quadrimestre de transformação em lei (1º quadrimestre, 2º quadrimestre, 3º quadrimestre);Texquadrimestre;Recupera as proposições apresentadas de acordo com o quadrimestre de transformação em lei (1º quadrimestre, 2º quadrimestre, 3º quadrimestre)
+Data Transformação em Lei;Codtrimestre;Recupera as proposições apresentadas de acordo com o trimestre de transformação em lei (1º, 2º, 3º, 4º);Codtrimestre;Recupera as proposições apresentadas de acordo com o trimestre de transformação em lei (1º, 2º, 3º, 4º)
+Data Transformação em Lei;Textrimestre;Recupera as proposições apresentadas de acordo com o trimestre de transformação em lei (1º trimestre, 2º trimestre, 3º trimestre, 4º trimestre);Textrimestre;Recupera as proposições apresentadas de acordo com o trimestre de transformação em lei (1º trimestre, 2º trimestre, 3º trimestre, 4º trimestre)
+Data Transformação em Lei;Codbimestre;Retorna as proposições de acordo com o bimestre de transformação em lei (1º, 2º, 3º, 4º, 5º, 6º);Codbimestre;Retorna as proposições de acordo com o bimestre de transformação em lei (1º, 2º, 3º, 4º, 5º, 6º)
+Data Transformação em Lei;Texbimestre;Retorna as proposições de acordo com o bimestre de transformação em lei (1º bimestre, 2º bimestre, 3º bimestre, 4º bimestre, 5º bimestre, 6º bimestre);Texbimestre;Retorna as proposições de acordo com o bimestre de transformação em lei (1º bimestre, 2º bimestre, 3º bimestre, 4º bimestre, 5º bimestre, 6º bimestre)
+Data Transformação em Lei;Codsemana;Recupera as proposições de acordo com a semana de transformação em lei. Um ano de 365 dias possui 52 semanas;Codsemana;Recupera as proposições de acordo com a semana de transformação em lei. Um ano de 365 dias possui 52 semanas
+Data Transformação em Lei;Texdiasemana;Recupera as proposições de acordo com a semana de transformação em lei. Por exemplo: de 20/09 a 27/09;Texdiasemana;Recupera as proposições de acordo com a semana de transformação em lei. Por exemplo: de 20/09 a 27/09
+Data Transformação em Lei;Coddiajuliano;NÃO ENTENDI;Coddiajuliano;NÃO ENTENDI
+Data Transformação em Lei;Indferiado;Apresenta a opção de escolher ou não a indicação de feriado;Indferiado;Apresenta a opção de escolher ou não a indicação de feriado
+Data Transformação em Lei;Indexpediente;Apresenta a opção de escolher ou não a indicação de expediente;Indexpediente;Apresenta a opção de escolher ou não a indicação de expediente
+Data Transformação em Lei;Texnaoexpediente;Apresenta os nomes das possibilidades em que não há expediente;Texnaoexpediente;Apresenta os nomes das possibilidades em que não há expediente
+Data Veto Total;Data Veto Total Completa;Retorna a data completa em que as proposições transformadas em lei sofreram veto total ;Data Veto Total Completa;Retorna a data completa em que as proposições transformadas em lei sofreram veto total 
+Data Veto Total;Ano;Retorna as proposições trasformadas em lei de acordo com o ano que sofreram veto total;Ano;Retorna as proposições trasformadas em lei de acordo com o ano que sofreram veto total
+Data Veto Total;Mes;Retorna as proposições trasformadas em lei de acordo com o mês que sofreram veto total;Mes;Retorna as proposições trasformadas em lei de acordo com o mês que sofreram veto total
+Data Veto Total;Dia;Retorna as proposições trasformadas em lei de acordo com o dia que sofreram veto total;Dia;Retorna as proposições trasformadas em lei de acordo com o dia que sofreram veto total
+Data Veto Total;Nome Mes;Retorna as proposições trasformadas em lei de acordo com o nome do mês que sofreram veto total;Nome Mes;Retorna as proposições trasformadas em lei de acordo com o nome do mês que sofreram veto total
+Data Veto Total;Idetempo;;Idetempo;
+Data Veto Total;Codsemestre;Retona as proposições transformadas em lei de acordo com o semestre do veto total (1º ou 2º);Codsemestre;Retona as proposições transformadas em lei de acordo com o semestre do veto total (1º ou 2º)
+Data Veto Total;Texsemestre;Retona as proposições transformadas em lei de acordo com o semestre do veto total (1º semestre ou 2º semestre);Texsemestre;Retona as proposições transformadas em lei de acordo com o semestre do veto total (1º semestre ou 2º semestre)
+Data Veto Total;Codquadrimestre;Retona as proposições transformadas em lei de acordo com o quadrimestre do veto total (1º, 2º, 3º);Codquadrimestre;Retona as proposições transformadas em lei de acordo com o quadrimestre do veto total (1º, 2º, 3º)
+Data Veto Total;Texquadrimestre;Retona as proposições transformadas em lei de acordo com o quadrimestre do veto total (1º quadrimestre, 2º quadrimestre, 3º quadrimestre);Texquadrimestre;Retona as proposições transformadas em lei de acordo com o quadrimestre do veto total (1º quadrimestre, 2º quadrimestre, 3º quadrimestre)
+Data Veto Total;Codtrimestre;Retona as proposições transformadas em lei de acordo com o trimestre do veto total (1º, 2º, 3º, 4º);Codtrimestre;Retona as proposições transformadas em lei de acordo com o trimestre do veto total (1º, 2º, 3º, 4º)
+Data Veto Total;Textrimestre;Retona as proposições transformadas em lei de acordo com o trimestre do veto total (1º trimestre, 2º trimestre, 3º trimestre, 4º trimestre);Textrimestre;Retona as proposições transformadas em lei de acordo com o trimestre do veto total (1º trimestre, 2º trimestre, 3º trimestre, 4º trimestre)
+Data Veto Total;Codbimestre;Retona as proposições transformadas em lei de acordo com o bimestre do veto total (1º, 2º, 3º, 4º, 5º, 6º);Codbimestre;Retona as proposições transformadas em lei de acordo com o bimestre do veto total (1º, 2º, 3º, 4º, 5º, 6º)
+Data Veto Total;Texbimestre;Retona as proposições transformadas em lei de acordo com o bimestre do veto total (1º bimestre, 2º bimestre, 3º bimestre, 4º bimestre, 5º bimestre, 6º bimestre);Texbimestre;Retona as proposições transformadas em lei de acordo com o bimestre do veto total (1º bimestre, 2º bimestre, 3º bimestre, 4º bimestre, 5º bimestre, 6º bimestre)
+Data Veto Total;Codsemana;Retorna as proposições transformadas em lei de acordo com a semana do veto total. Um ano de 365 dias possui 52 semanas;Codsemana;Retorna as proposições transformadas em lei de acordo com a semana do veto total. Um ano de 365 dias possui 52 semanas
+Data Veto Total;Texsemana;Retorna as proposições transformadas em lei de acordo com a semana do veto total. Por exemplo: 20/09-27/09;Texsemana;Retorna as proposições transformadas em lei de acordo com a semana do veto total. Por exemplo: 20/09-27/09
+Data Veto Total;Texdiasemana;Retorna as proposições transformadas em lei de acordo com o dia da semana que sofreram veto total;Texdiasemana;Retorna as proposições transformadas em lei de acordo com o dia da semana que sofreram veto total
+Data Veto Total;Coddiajuliano;;Coddiajuliano;
+Data Veto Total;Indferiado;Apresenta a opção de escolher ou não a indicação de feriado;Indferiado;Apresenta a opção de escolher ou não a indicação de feriado
+Data Veto Total;Indexpediente;Apresenta a opção de escolher ou não a indicação de expediente;Indexpediente;Apresenta a opção de escolher ou não a indicação de expediente
+Data Veto Total;Texnaoexpediente;Apresenta os nomes das possibilidades em que não há expediente;Texnaoexpediente;Apresenta os nomes das possibilidades em que não há expediente
+Data Atualização Dados;Data Atualizacao Dados;Informa a data em que os dados foram atualizados pela última vez;Data Atualizacao Dados;Informa a data em que os dados foram atualizados pela última vez
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
