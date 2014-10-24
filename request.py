@@ -29,8 +29,10 @@ class Request:
         # Convertendo a resposta para um dicioário
         response_list_dict = json.loads(response_http.read())
 
+
         # Criando uma Resposta com o código HTTP da resposta, o resultado e se a requisição teve sucesso ou não
         response = Response(response_http.code, response_list_dict['result'], response_list_dict['success'])
+
      
         # Retornando Resultado da Requisição
         return response

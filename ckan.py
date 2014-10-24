@@ -27,10 +27,9 @@ def main():
 	
 	package = Package()
 
-	response =  package.list_package()
+	response =  package.create_or_update_package(package_configuration)
 
 	print response.result
-	#package = Package().create_or_update_package()
 
 	# Obtendo os arquivos de diretório de arquivos
 	#files = files_path(configuration.PATH_OF_FILES)
