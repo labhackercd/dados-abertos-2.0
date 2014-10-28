@@ -4,10 +4,10 @@ from pyjavaproperties import Properties
 
 class PackageConfiguration:
 
-    def __init__(self):
+    def __init__(self, file_path):
         
-        # Lend o arquivo de configurações de um determinado pacote a 
-        self.CONFIG_FILE = os.path.dirname(os.path.realpath(__file__))+"/package.properties"
+        # Lend o arquivo de configurações de um determinado pacote a ser lido
+        self.CONFIG_FILE = file_path
 
         # Lendo o arquivo de configuraões no caminho a ser modificado conforme o caminho acima
         self.PROPERTIES = Properties()
@@ -21,3 +21,9 @@ class PackageConfiguration:
             'notes': self.PROPERTIES['NOTES'],
             'version': self.PROPERTIES['VERSION']
         }
+
+
+
+        # Arquivo dos Recursos
+        self.PATH_OF_FILES = self.PROPERTIES['PATH_OF_FILES']
+

@@ -37,7 +37,15 @@ class Request:
         # Retornando Resultado da Requisição
         return response
 
-        
+
+    def do_ResourceRequest(self, url_request, params_request):
+
+        request_url = "{URL_BASE}".format(URL_BASE=self.setup_configuration.URL_BASE)+url_request
+
+        request = requests.post(res_url, data=params_request, headers=self.setup_configuration.AUTH, files=f)
+
+
+
 
 
 

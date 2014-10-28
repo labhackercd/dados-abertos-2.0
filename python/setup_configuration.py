@@ -8,7 +8,7 @@ class SetupConfiguration:
     def __init__(self):
         
        
-        self.CONFIG_FILE = os.path.dirname(os.path.realpath(__file__))+"/myconfig.properties"
+        self.CONFIG_FILE = os.path.dirname(os.path.realpath(__file__))+"/config/myconfig.properties"
 
         # Lendo o arquivo de configuraões no caminho a ser modificado conforme o caminho acima
         self.PROPERTIES = Properties()
@@ -23,7 +23,3 @@ class SetupConfiguration:
 
         # Lendo a Chave Privada do Arquivo de Configurações
         self.AUTH = self.PROPERTIES['AUTH']
-
-
-        # Arquivo dos Recursos
-        self.PATH_OF_FILES = self.PROPERTIES['PATH_OF_FILES']

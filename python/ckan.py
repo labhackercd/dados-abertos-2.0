@@ -7,13 +7,12 @@ from package import Package
 
 
 
-
 # Função que procura os arquivos de rercurso em um diretorio
+
 def files_path(directory):
   file_paths = []
   for root, directories, files in os.walk(directory):
        for filename in files:
-           	# Costruindo o caminho completo
             filepath = os.path.join(root, filename)
             file_paths.append(filepath)  # Adicionando a Listas
 
@@ -23,18 +22,22 @@ def files_path(directory):
 
 def main():
 
-	package_configuration = PackageConfiguration()
+	for path in files_path(os.path.dirname(os.path.realpath(__file__))+"/config/packages/"):
+		
+		# Criando a configuração dos pacotes
+		package_configuration = PackageConfiguration(path)
+		
+		# Criando uma instância de um pacote
+		package = Package()
+
+		# Resposta da Criação de um determinado pacote
+		response = package.create_or_update_package(package_configuration)
+		
+		# Obtendo o id do Pacote no CKAN
+		package_id = response.result['id']
+		print package_id
 	
-	package = Package()
-
-	response =  package.create_or_update_package(package_configuration)
-
-	print response.result
-
-	# Obtendo os arquivos de diretório de arquivos
-	#files = files_path(configuration.PATH_OF_FILES)
-	#print files
-
+	
 
 if __name__ == "__main__":
     main()
@@ -56,10 +59,3 @@ if __name__ == "__main__":
 
 # r = requests.post(res_url, data=res_dict, headers=auth, files=f)
 
-# if package_url != None:
-#  	print package_url.get_full_url()
-# # We'll use the package_create function to create a new dataset.
-# request = urllib2.Request(
-#     'http://dados-teste.camara.gov.br/api/action/package_update')
-
-# assert response.code == 200
