@@ -18,6 +18,7 @@ class PackageConfiguration:
         self.PACKAGE_DICT= {
             'author': self.PROPERTIES['AUTHOR'],
             'name':  self.PROPERTIES['NAME'],
+            'title':  self.PROPERTIES['TITLE'],
             'notes': self.PROPERTIES['NOTES'],
             'version': self.PROPERTIES['VERSION']
         }
