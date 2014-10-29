@@ -13,7 +13,7 @@ class Package:
     def list_package(self):
         
         # Url da Requisição
-        url_request = "current_package_list_with_resources"
+        url_request = "/api/action/current_package_list_with_resources"
         
         # Parametros da Requisição (Para essa requisição não há nenhum parametro, logo o dicionário vai vazio
         return self.request.do_Request(url_request, params_request={})
@@ -34,10 +34,10 @@ class Package:
 
             # Se o pacote já existir, obté-se a URL de Update e o id daquele pacote no CKAN
             if package['name'] == package_configuration.PACKAGE_DICT['name']:
-                package_url = 'package_update'
+                package_url = 'api/action/package_update'
                 return self.request.do_Request(package_url, package_configuration.PACKAGE_DICT)
      
             else:
-                package_url = 'package_create'
+                package_url = 'api/action/package_create'
                 return self.request.do_Request(package_url, package_configuration.PACKAGE_DICT)
                    

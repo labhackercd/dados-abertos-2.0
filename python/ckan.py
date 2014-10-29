@@ -1,9 +1,11 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-import requests
 import os
-from package_configuration import PackageConfiguration
 from package import Package
+from resource import Resource
+from package_configuration import PackageConfiguration
+from resource_configuration import ResourceConfiguration
+
 
 
 
@@ -22,10 +24,10 @@ def files_path(directory):
 
 def main():
 
-	for path in files_path(os.path.dirname(os.path.realpath(__file__))+"/config/packages/"):
+	for package_path in files_path(os.path.dirname(os.path.realpath(__file__))+"/config/packages/"):
 		
 		# Criando a configuração dos pacotes
-		package_configuration = PackageConfiguration(path)
+		package_configuration = PackageConfiguration(package_path)
 		
 		# Criando uma instância de um pacote
 		package = Package()
@@ -35,27 +37,25 @@ def main():
 		
 		# Obtendo o id do Pacote no CKAN
 		package_id = response.result['id']
-		print package_id
-	
+
+
+		# Para arquvivo de configurações de recurso
+		for file_path in files_path(package_configuration.PATH_OF_FILES):
+
+			# Criando a configuração de um recurso
+			resource_configuration = ResourceConfiguration(package_id, file_path)
+
+			# Criando o recurso
+			resource = Resource()
+
+			# Obtendo a resposta do Recurso
+			response = resource.create_or_update_resource(resource_configuration)
+			
+			# Obtendo o resultado
+			#print response
 	
 
 if __name__ == "__main__":
     main()
 
-
-
-
-# res_dict = {
-#     'package_id': package_id,
-#     'name': 'Proposições Legislativas de 2014',
-#     'description': 'A long description of my resource!',
-#     'format':'CSV'
-# }
-
-# res_url = '{URL_BASE}/action/resource_create'.format(URL_BASE=URL_BASE)
-
-
-# f = [('upload', file('pathToMyFile'))]
-
-# r = requests.post(res_url, data=res_dict, headers=auth, files=f)
 

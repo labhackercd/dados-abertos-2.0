@@ -2,7 +2,9 @@
 # -*- coding: utf-8 -*-
 import urllib
 import json
+import requests
 import urllib2
+from poster.encode import multipart_encode
 from setup_configuration import SetupConfiguration
 from response import Response
 
@@ -38,15 +40,13 @@ class Request:
         return response
 
 
-    def do_ResourceRequest(self, url_request, params_request):
+    def doResource_Request(self, url_request, params_request, file_path):
 
-        request_url = "{URL_BASE}".format(URL_BASE=self.setup_configuration.URL_BASE)+url_request
-
-        request = requests.post(res_url, data=params_request, headers=self.setup_configuration.AUTH, files=f)
-
-
-
-
+        auth = {'Authorization': self.setup_configuration.AUTH}
+        url = "{URL_BASE}".format(URL_BASE=self.setup_configuration.URL_BASE)+url_request
+        files = {'upload': open(file_path, 'rb')}
+        r = requests.post(url, data=params_request, headers=auth,  files=files)
+        print r, params_request['name']
 
 
 
