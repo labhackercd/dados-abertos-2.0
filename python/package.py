@@ -28,16 +28,18 @@ class Package:
         # Criando um dicionário com os Pacotes
         package_list_dict = package_list_response.result
 
-       
         # Verificando se o pacote será atualizado ou criado
+        package_updated = False
         for package in package_list_dict:
-
             # Se o pacote já existir, obté-se a URL de Update e o id daquele pacote no CKAN
             if package['name'] == package_configuration.PACKAGE_DICT['name']:
+                package_updated = True
+                print 'Atualizando o Pacote: {name}'.format(name = package_configuration.PACKAGE_DICT['name'])
                 package_url = 'api/action/package_update'
                 return self.request.do_Request(package_url, package_configuration.PACKAGE_DICT)
-     
-            else:
+        
+        if package_updated == False:
                 package_url = 'api/action/package_create'
+                print 'Criando o Pacote: {name}'.format(name = package_configuration.PACKAGE_DICT['name'])
                 return self.request.do_Request(package_url, package_configuration.PACKAGE_DICT)
                    
