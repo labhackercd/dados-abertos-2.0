@@ -26,6 +26,7 @@ def main():
 
 	for package_path in files_path(os.path.dirname(os.path.realpath(__file__))+"/config/packages/"):
 		
+
 		# Criando a configuração dos pacotes
 		package_configuration = PackageConfiguration(package_path)
 		
@@ -50,10 +51,7 @@ def main():
 
 			# Obtendo a resposta do Recurso
 			response = resource.create_or_update_resource(resource_configuration)
-			
-			# Obtendo o resultado
-			#print response
-	
+		
 
 if __name__ == "__main__":
     main()

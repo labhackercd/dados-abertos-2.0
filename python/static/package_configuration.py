@@ -19,6 +19,7 @@ class PackageConfiguration:
             'author': self.PROPERTIES['AUTHOR'],
             'name':  self.PROPERTIES['NAME'],
             'title':  self.PROPERTIES['TITLE'],
+            'description':  self.PROPERTIES['DESCRIPTION'],
             'notes': self.PROPERTIES['NOTES'],
             'version': self.PROPERTIES['VERSION']
         }
