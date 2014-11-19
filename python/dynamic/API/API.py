@@ -1,12 +1,17 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+
+import datetime
 from flask import Flask, request
-from mongo_configuration.Mongo_Utils import json_return
+from config.APIConfiguration import API_Configuration
+from middleware.MongoHandler import Mongo_Handler
+from middleware.RequestHandler import Request_Handler
 from mongo_configuration.Mongo_Configuration import MongoConfiguration
-from API_Configuration import API_Configuration
 
 
 # Criando a aplicacao do Flask
+from mongo_configuration.Mongo_Utils import json_return
+
 app = Flask(__name__)
 
 # Criando as configuracoes da API
@@ -15,46 +20,42 @@ api_configuration = API_Configuration()
 # Criando a conexão do mongo com contexto do banco de dados
 mongo = MongoConfiguration().flask_context(app)
 
+# Limitando o retorno da Consulta (Parametro definido no arquivo de propriedades
+lim = api_configuration.LIMIT_PAGE
 
-# Lim é o limitador de retorno e o off significa quantas proposicoes serao puladas (isso é feito para se ter consultas
-# paginadas)
 
 @app.route("{API}/proposicoes.json".format(API=api_configuration.BASE_URL), methods=['GET'])
+
 def get_proposicoes():
 
-  if request.method == 'GET':
+    # Criando um Handler de Requisições
+    request_handler = Request_Handler(request)
 
-    # Limitando a Consulta
-    lim = int(request.args.get('limit', 2000))
+    # Recebendo os parâmetros
+    # TODO receber os parâmetros de Data
+    request_handler.receive_defaultParams()
 
-    # Páginando a Consulta
-    off = int(request.args.get('offset', 0))
+    # Validar os parâmetros da requisição
+    # TODO Validar parâmetros de data
+    try:
+        request_handler.validate_params(request_handler.params)
+    except AttributeError:
+        return json_return({}, "proposicoes", {'error': 'A paginação deve ter um número inteiro positivo' })
+    except ValueError:
+        return json_return({}, "proposicoes", {'error': 'Data informada não é válida.' })
+    except LookupError:
+        return json_return({}, "proposicoes", {'error': 'O intervalo de datas não foi informado corretamente.' })
+    # Criando um Handler do MongoDB
+    mongo_handler = Mongo_Handler(mongo, lim)
 
-    params = {
-        'legislatura': request.args.get('legislatura'),
-        'autor': request.args.get('autor'),
-        'partido_politico': request.args.get('partido'),
+    # Realizando a Consulta Páginada no MongoDB
+    try:
+        query = mongo_handler.evaluate_request("proposicoes",request_handler, lim)
+        return query
+    except OverflowError:
+         return json_return({}, "", {'error': 'Página fora do intervalo da consulta' })
 
-    }
 
-    # Verificando se o limite está entre os limites de consulta pre-determinados pelo API_Configuration
-    if lim > api_configuration.LIMIT_DOWN and lim <= api_configuration.LIMIT_UPPER:
-
-        # Verificando se a Consulta tem um offset não é a maior que a quantidade de dados
-        registers = mongo.db.proposicoes.count()
-        if off >= 0 <= registers:
-            # Realizando a Consulta no MongoDB
-            proposicoes = mongo.db.proposicoes.find().skip(off).limit(lim)
-
-            return json_return(proposicoes, "proposicoes")
-
-        else:
-
-            return 'É necessário definir uma paginação maior que 0 e menor que {registers}'.format(registers=registers)
-
-    else:
-        return 'É necessário definir um limite positivo maior que {DOWN} e menor ou igual a que {UPPER}'.format(DOWN=api_configuration.LIMIT_DOWN,
-                                                                                        UPPER = api_configuration.LIMIT_UPPER)
 
 if __name__ == '__main__':
     app.run(debug=True)

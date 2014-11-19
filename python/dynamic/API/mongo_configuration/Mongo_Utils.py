@@ -32,11 +32,13 @@ def jsonify(data):
                     mimetype='application/json')
 
 
-def json_return(collection, collection_name):
+def json_return(collection, collection_name, result_dict):
    json_results =[]
+
+   # Colocando cada túpula do JSON na coleção
    for result in collection:
       json_results.append(result)
-   return jsonify({collection_name:json_results})
+   return jsonify({"metadata":result_dict, collection_name:json_results})
 
 
 
