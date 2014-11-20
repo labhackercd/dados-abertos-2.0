@@ -1,6 +1,5 @@
 # !/usr/bin/env python
 # -*- coding: utf-8 -*-
-from Carbon.QuickTime import dataRefSelfReference
 import datetime
 
 __author__ = 'baufaker'
