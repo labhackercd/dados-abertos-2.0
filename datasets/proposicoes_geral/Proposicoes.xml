@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema>
+    <column comment="" default="" key="false"
+        label="IDE_TIPO_NORMA_JURIDICA" length="38" nullable="false"
+        originalDbColumnName="IDE_TIPO_NORMA_JURIDICA" pattern=""
+        precision="0" talendType="id_BigDecimal" type=""/>
+    <column comment="" default="" key="false"
+        label="IDE_PROPOSICAO_ARTIFICIAL" length="38" nullable="false"
+        originalDbColumnName="IDE_PROPOSICAO_ARTIFICIAL" pattern=""
+        precision="0" talendType="id_BigDecimal" type=""/>
+    <column comment="" default="" key="false"
+        label="IDE_SITUACAO_PROPOSICAO" length="38" nullable="false"
+        originalDbColumnName="IDE_SITUACAO_PROPOSICAO" pattern=""
+        precision="0" talendType="id_BigDecimal" type=""/>
+    <column comment="" default="" key="false"
+        label="IDE_SESSAO_LEGISLATIVA_APRESEN" length="38"
+        nullable="false"
+        originalDbColumnName="IDE_SESSAO_LEGISLATIVA_APRESEN" pattern=""
+        precision="0" talendType="id_BigDecimal" type=""/>
+    <column comment="" default="" key="false"
+        label="IDE_PARTIDO_POLITICO" length="38" nullable="false"
+        originalDbColumnName="IDE_PARTIDO_POLITICO" pattern=""
+        precision="0" talendType="id_BigDecimal" type=""/>
+    <column comment="" default="" key="false"
+        label="IDE_TIPO_PROPOSICAO_ARTIFICIAL" length="38"
+        nullable="false"
+        originalDbColumnName="IDE_TIPO_PROPOSICAO_ARTIFICIAL" pattern=""
+        precision="0" talendType="id_BigDecimal" type=""/>
+    <column comment="" default="" key="false" label="IDE_UF" length="38"
+        nullable="false" originalDbColumnName="IDE_UF" pattern=""
+        precision="0" talendType="id_BigDecimal" type=""/>
+    <column comment="" default="" key="false" label="IDE_ORGAO"
+        length="38" nullable="false" originalDbColumnName="IDE_ORGAO"
+        pattern="" precision="0" talendType="id_BigDecimal" type=""/>
+    <column comment="" default="" key="false"
+        label="IDE_AREA_TEMATICA_BRIDGE" length="38" nullable="false"
+        originalDbColumnName="IDE_AREA_TEMATICA_BRIDGE" pattern=""
+        precision="0" talendType="id_BigDecimal" type=""/>
+    <column comment="" default="" key="false"
+        label="IDE_TEMPO_DATA_TRANSF_LEI" length="38" nullable="false"
+        originalDbColumnName="IDE_TEMPO_DATA_TRANSF_LEI" pattern=""
+        precision="0" talendType="id_BigDecimal" type=""/>
+    <column comment="" default="" key="false"
+        label="IDE_TEMPO_DATA_APRESENTACAO" length="38" nullable="false"
+        originalDbColumnName="IDE_TEMPO_DATA_APRESENTACAO" pattern=""
+        precision="0" talendType="id_BigDecimal" type=""/>
+    <column comment="" default="" key="false" label="QTD_PROPOSICAO"
+        length="38" nullable="true"
+        originalDbColumnName="QTD_PROPOSICAO" pattern="" precision="0"
+        talendType="id_BigDecimal" type=""/>
+    <column comment="" default="" key="false"
+        label="IDE_SESSAO_LEGISLATIVA_LEI" length="38" nullable="false"
+        originalDbColumnName="IDE_SESSAO_LEGISLATIVA_LEI" pattern=""
+        precision="0" talendType="id_BigDecimal" type=""/>
+    <column comment="" default="" key="false"
+        label="IDE_TEMPO_DATA_VETO_TOTAL" length="38" nullable="false"
+        originalDbColumnName="IDE_TEMPO_DATA_VETO_TOTAL" pattern=""
+        precision="0" talendType="id_BigDecimal" type=""/>
+    <column comment="" default="" key="false"
+        label="IDE_SESSAO_LGSLTV_VETO_TOTAL" length="38"
+        nullable="false"
+        originalDbColumnName="IDE_SESSAO_LGSLTV_VETO_TOTAL" pattern=""
+        precision="0" talendType="id_BigDecimal" type=""/>
+    <column comment="" default="" key="false"
+        label="IDE_AREA_TEMATICA_LEI_BRIDGE" length="38"
+        nullable="false"
+        originalDbColumnName="IDE_AREA_TEMATICA_LEI_BRIDGE" pattern=""
+        precision="0" talendType="id_BigDecimal" type=""/>
+    <column comment="" default="" key="false" label="IDE_APRESENTADA"
+        length="38" nullable="false"
+        originalDbColumnName="IDE_APRESENTADA" pattern="" precision="0"
+        talendType="id_BigDecimal" type=""/>
+    <column comment="" default="" key="false"
+        label="DATAPRESENTACAOPROPOSICAO" length="0" nullable="true"
+        originalDbColumnName="DATAPRESENTACAOPROPOSICAO"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="0"
+        talendType="id_Date" type=""/>
+    <column comment="" default="" key="false" label="IDE_TIPO_AUTOR"
+        length="38" nullable="false"
+        originalDbColumnName="IDE_TIPO_AUTOR" pattern="" precision="0"
+        talendType="id_BigDecimal" type=""/>
+    <column comment="" default="" key="false"
+        label="DATTRANSFPROPOSICAOLEI" length="0" nullable="true"
+        originalDbColumnName="DATTRANSFPROPOSICAOLEI"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="0"
+        talendType="id_Date" type=""/>
+    <column comment="" default="" key="false" label="IDE_PARLAMENTAR"
+        length="38" nullable="false"
+        originalDbColumnName="IDE_PARLAMENTAR" pattern="" precision="0"
+        talendType="id_BigDecimal" type=""/>
+    <column comment="" default="" key="false"
+        label="COD_TIPO_PARLAMENTAR" length="38" nullable="true"
+        originalDbColumnName="COD_TIPO_PARLAMENTAR" pattern=""
+        precision="0" talendType="id_BigDecimal" type=""/>
+    <column comment="" default="" key="false"
+        label="NOM_CIVIL_PARLAMENTAR" length="200" nullable="true"
+        originalDbColumnName="NOM_CIVIL_PARLAMENTAR" pattern=""
+        precision="0" talendType="id_String" type=""/>
+    <column comment="" default="" key="false" label="NOM_PARLAMENTAR"
+        length="200" nullable="true"
+        originalDbColumnName="NOM_PARLAMENTAR" pattern="" precision="0"
+        talendType="id_String" type=""/>
+    <column comment="" default="" key="false" label="COD_SEXO"
+        length="20" nullable="true" originalDbColumnName="COD_SEXO"
+        pattern="" precision="0" talendType="id_String" type=""/>
+    <column comment="" default="" key="false"
+        label="DES_TIPO_PARLAMENTAR" length="100" nullable="true"
+        originalDbColumnName="DES_TIPO_PARLAMENTAR" pattern=""
+        precision="0" talendType="id_String" type=""/>
+    <column comment="" default="" key="false"
+        label="COD_PARLAMENTAR_ORIGEM" length="38" nullable="true"
+        originalDbColumnName="COD_PARLAMENTAR_ORIGEM" pattern=""
+        precision="0" talendType="id_BigDecimal" type=""/>
+    <column comment="" default="" key="false"
+        label="NUM_LEGISLATURA_APRESEN" length="38" nullable="true"
+        originalDbColumnName="NUM_LEGISLATURA_APRESEN" pattern=""
+        precision="0" talendType="id_BigDecimal" type=""/>
+    <column comment="" default="" key="false"
+        label="NUM_SESSAO_LEGISLATIVA_APRESEN" length="38"
+        nullable="true"
+        originalDbColumnName="NUM_SESSAO_LEGISLATIVA_APRESEN" pattern=""
+        precision="0" talendType="id_BigDecimal" type=""/>
+    <column comment="" default="" key="false"
+        label="COD_TIPO_SESSAO_LEGISLATIVA_APRESEN" length="38"
+        nullable="true"
+        originalDbColumnName="COD_TIPO_SESSAO_LEGISLATIVA_APRESEN"
+        pattern="" precision="0" talendType="id_BigDecimal" type=""/>
+    <column comment="" default="" key="false"
+        label="DAT_INICIO_LEGISLATURA_APRESEN" length="0"
+        nullable="true"
+        originalDbColumnName="DAT_INICIO_LEGISLATURA_APRESEN"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="0"
+        talendType="id_Date" type=""/>
+    <column comment="" default="" key="false"
+        label="DAT_FIM_LEGISLATURA_APRESEN" length="0" nullable="true"
+        originalDbColumnName="DAT_FIM_LEGISLATURA_APRESEN"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="0"
+        talendType="id_Date" type=""/>
+    <column comment="" default="" key="false"
+        label="DAT_INICIO_SESSAO_LEGISLATIVA_APRESEN" length="0"
+        nullable="true"
+        originalDbColumnName="DAT_INICIO_SESSAO_LEGISLATIVA_APRESEN"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="0"
+        talendType="id_Date" type=""/>
+    <column comment="" default="" key="false"
+        label="DAT_FIM_SESSAO_LEGISLATIVA_APRESEN" length="0"
+        nullable="true"
+        originalDbColumnName="DAT_FIM_SESSAO_LEGISLATIVA_APRESEN"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="0"
+        talendType="id_Date" type=""/>
+    <column comment="" default="" key="false"
+        label="DES_TIPO_SESSAO_LEGISLATIVA_APRESEN" length="50"
+        nullable="true"
+        originalDbColumnName="DES_TIPO_SESSAO_LEGISLATIVA_APRESEN"
+        pattern="" precision="0" talendType="id_String" type=""/>
+    <column comment="" default="" key="false"
+        label="DAT_INICIAL_RECESSO_APRESEN" length="0" nullable="true"
+        originalDbColumnName="DAT_INICIAL_RECESSO_APRESEN"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="0"
+        talendType="id_Date" type=""/>
+    <column comment="" default="" key="false"
+        label="DAT_FINAL_RECESSO_APRESEN" length="0" nullable="true"
+        originalDbColumnName="DAT_FINAL_RECESSO_APRESEN"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="0"
+        talendType="id_Date" type=""/>
+    <column comment="" default="" key="false"
+        label="NUM_LEGISLATURA_LEI" length="38" nullable="true"
+        originalDbColumnName="NUM_LEGISLATURA_LEI" pattern=""
+        precision="0" talendType="id_BigDecimal" type=""/>
+    <column comment="" default="" key="false"
+        label="NUM_SESSAO_LEGISLATIVA_LEI" length="38" nullable="true"
+        originalDbColumnName="NUM_SESSAO_LEGISLATIVA_LEI" pattern=""
+        precision="0" talendType="id_BigDecimal" type=""/>
+    <column comment="" default="" key="false"
+        label="COD_TIPO_SESSAO_LEGISLATIVA_LEI" length="38"
+        nullable="true"
+        originalDbColumnName="COD_TIPO_SESSAO_LEGISLATIVA_LEI"
+        pattern="" precision="0" talendType="id_BigDecimal" type=""/>
+    <column comment="" default="" key="false"
+        label="DAT_INICIO_LEGISLATURA_LEI" length="0" nullable="true"
+        originalDbColumnName="DAT_INICIO_LEGISLATURA_LEI"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="0"
+        talendType="id_Date" type=""/>
+    <column comment="" default="" key="false"
+        label="DAT_FIM_LEGISLATURA_LEI" length="0" nullable="true"
+        originalDbColumnName="DAT_FIM_LEGISLATURA_LEI"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="0"
+        talendType="id_Date" type=""/>
+    <column comment="" default="" key="false"
+        label="DAT_INICIO_SESSAO_LEGISLATIVA_LEI" length="0"
+        nullable="true"
+        originalDbColumnName="DAT_INICIO_SESSAO_LEGISLATIVA_LEI"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="0"
+        talendType="id_Date" type=""/>
+    <column comment="" default="" key="false"
+        label="DAT_FIM_SESSAO_LEGISLATIVA_LEI" length="0"
+        nullable="true"
+        originalDbColumnName="DAT_FIM_SESSAO_LEGISLATIVA_LEI"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="0"
+        talendType="id_Date" type=""/>
+    <column comment="" default="" key="false"
+        label="DES_TIPO_SESSAO_LEGISLATIVA_LEI" length="50"
+        nullable="true"
+        originalDbColumnName="DES_TIPO_SESSAO_LEGISLATIVA_LEI"
+        pattern="" precision="0" talendType="id_String" type=""/>
+    <column comment="" default="" key="false"
+        label="DAT_INICIAL_RECESSO_LEI" length="0" nullable="true"
+        originalDbColumnName="DAT_INICIAL_RECESSO_LEI"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="0"
+        talendType="id_Date" type=""/>
+    <column comment="" default="" key="false"
+        label="DAT_FINAL_RECESSO_LEI" length="0" nullable="true"
+        originalDbColumnName="DAT_FINAL_RECESSO_LEI"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="0"
+        talendType="id_Date" type=""/>
+    <column comment="" default="" key="false"
+        label="COD_PROPOSICAO_ORIGEM" length="0" nullable="true"
+        originalDbColumnName="COD_PROPOSICAO_ORIGEM" pattern=""
+        precision="-1" talendType="id_BigDecimal" type=""/>
+    <column comment="" default="" key="false" label="ANO_PROPOSICAO"
+        length="38" nullable="true"
+        originalDbColumnName="ANO_PROPOSICAO" pattern="" precision="0"
+        talendType="id_BigDecimal" type=""/>
+    <column comment="" default="" key="false" label="NUM_PROPOSICAO"
+        length="38" nullable="true"
+        originalDbColumnName="NUM_PROPOSICAO" pattern="" precision="0"
+        talendType="id_BigDecimal" type=""/>
+    <column comment="" default="" key="false" label="NOM_PROPOSICAO"
+        length="200" nullable="true"
+        originalDbColumnName="NOM_PROPOSICAO" pattern="" precision="0"
+        talendType="id_String" type=""/>
+    <column comment="" default="" key="false"
+        label="AREAS_TEMATICAS_APRESENTACAO" length="200"
+        nullable="true"
+        originalDbColumnName="AREAS_TEMATICAS_APRESENTACAO" pattern=""
+        precision="0" talendType="id_String" type=""/>
+    <column comment="" default="" key="false" label="SIG_NORMA_JURIDICA"
+        length="20" nullable="true"
+        originalDbColumnName="SIG_NORMA_JURIDICA" pattern=""
+        precision="0" talendType="id_String" type=""/>
+    <column comment="" default="" key="false"
+        label="DES_TIPO_NORMA_JURIDICA" length="200" nullable="true"
+        originalDbColumnName="DES_TIPO_NORMA_JURIDICA" pattern=""
+        precision="0" talendType="id_String" type=""/>
+    <column comment="" default="" key="false"
+        label="COD_TIPO_NORMA_JURIDICA_ORIGEM" length="38"
+        nullable="true"
+        originalDbColumnName="COD_TIPO_NORMA_JURIDICA_ORIGEM" pattern=""
+        precision="0" talendType="id_BigDecimal" type=""/>
+    <column comment="" default="" key="false" label="SIG_UF" length="20"
+        nullable="true" originalDbColumnName="SIG_UF" pattern=""
+        precision="0" talendType="id_String" type=""/>
+    <column comment="" default="" key="false"
+        label="TEX_REGIAO_GEOGRAFICA_AUTOR" length="60" nullable="true"
+        originalDbColumnName="TEX_REGIAO_GEOGRAFICA_AUTOR" pattern=""
+        precision="0" talendType="id_String" type=""/>
+    <column comment="" default="" key="false" label="NOM_UF"
+        length="100" nullable="true" originalDbColumnName="NOM_UF"
+        pattern="" precision="0" talendType="id_String" type=""/>
+    <column comment="" default="" key="false"
+        label="NOM_PARTIDO_POLITICO" length="100" nullable="true"
+        originalDbColumnName="NOM_PARTIDO_POLITICO" pattern=""
+        precision="0" talendType="id_String" type=""/>
+    <column comment="" default="" key="false"
+        label="COD_PARTIDO_POLITICO" length="38" nullable="true"
+        originalDbColumnName="COD_PARTIDO_POLITICO" pattern=""
+        precision="0" talendType="id_BigDecimal" type=""/>
+    <column comment="" default="" key="false"
+        label="SIG_PARTIDO_POLITICO" length="20" nullable="true"
+        originalDbColumnName="SIG_PARTIDO_POLITICO" pattern=""
+        precision="0" talendType="id_String" type=""/>
+    <column comment="" default="" key="false"
+        label="DES_SITUACAO_PROPOSICAO" length="60" nullable="true"
+        originalDbColumnName="DES_SITUACAO_PROPOSICAO" pattern=""
+        precision="0" talendType="id_String" type=""/>
+    <column comment="" default="" key="false"
+        label="SIG_TIPO_PROPOSICAO" length="20" nullable="true"
+        originalDbColumnName="SIG_TIPO_PROPOSICAO" pattern=""
+        precision="0" talendType="id_String" type=""/>
+    <column comment="" default="" key="false"
+        label="DES_TIPO_PROPOSICAO" length="200" nullable="true"
+        originalDbColumnName="DES_TIPO_PROPOSICAO" pattern=""
+        precision="0" talendType="id_String" type=""/>
+    <column comment="" default="" key="false" label="DES_COMPLETA"
+        length="200" nullable="true" originalDbColumnName="DES_COMPLETA"
+        pattern="" precision="0" talendType="id_String" type=""/>
+    <column comment="" default="" key="false"
+        label="IND_ATIVO_TIPO_PROPOSICAO" length="38" nullable="true"
+        originalDbColumnName="IND_ATIVO_TIPO_PROPOSICAO" pattern=""
+        precision="0" talendType="id_BigDecimal" type=""/>
+    <column comment="" default="" key="false"
+        label="DES_ATIVO_TIPO_PROPOSICAO" length="50" nullable="true"
+        originalDbColumnName="DES_ATIVO_TIPO_PROPOSICAO" pattern=""
+        precision="0" talendType="id_String" type=""/>
+    <column comment="" default="" key="false" label="DAT_VETO_TOTAL"
+        length="0" nullable="true" originalDbColumnName="DAT_VETO_TOTAL"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="0"
+        talendType="id_Date" type=""/>
+    <column comment="" default="" key="false" label="NOM_ORGAO"
+        length="4000" nullable="true" originalDbColumnName="NOM_ORGAO"
+        pattern="" precision="0" talendType="id_String" type=""/>
+    <column comment="" default="" key="false" label="IND_ATIVO_ORGAO"
+        length="38" nullable="true"
+        originalDbColumnName="IND_ATIVO_ORGAO" pattern="" precision="0"
+        talendType="id_BigDecimal" type=""/>
+    <column comment="" default="" key="false" label="DES_ATIVO_ORGAO"
+        length="20" nullable="true"
+        originalDbColumnName="DES_ATIVO_ORGAO" pattern="" precision="0"
+        talendType="id_String" type=""/>
+    <column comment="" default="" key="false" label="COD_ORGAO_ORIGEM"
+        length="38" nullable="true"
+        originalDbColumnName="COD_ORGAO_ORIGEM" pattern="" precision="0"
+        talendType="id_BigDecimal" type=""/>
+    <column comment="" default="" key="false" label="DES_APELIDO_ORGAO"
+        length="4000" nullable="true"
+        originalDbColumnName="DES_APELIDO_ORGAO" pattern=""
+        precision="0" talendType="id_String" type=""/>
+    <column comment="" default="" key="false"
+        label="COD_TIPO_AUTOR_ORIGEM" length="100" nullable="true"
+        originalDbColumnName="COD_TIPO_AUTOR_ORIGEM" pattern=""
+        precision="0" talendType="id_String" type=""/>
+    <column comment="" default="" key="false" label="DES_TIPO_AUTOR"
+        length="100" nullable="true"
+        originalDbColumnName="DES_TIPO_AUTOR" pattern="" precision="0"
+        talendType="id_String" type=""/>
+</schema>
