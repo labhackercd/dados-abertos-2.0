@@ -24,7 +24,7 @@ Por padrão a consulta da API está paginada a quantidade de resultados informad
 
 Em um exemplo teórico:
 
-URL_DA_CAMARA/api-dinamica/v1.0/proposicoes.json?legislatura=54&page_number=2
+http://dados-teste.camara.gov.br/dados/API/proposicoes.json?legislatura=54&page_number=2
 
 
 O Campo page_number, caso não seja informado, assume o valor 1.
@@ -54,7 +54,7 @@ A primeira versão da API têm como possíveis filtros:
 Exemplo - Filtro: Campo a ser utilizado
 
 Número da Legislatura: legislatura
-Exemplo de utilização: URL_DA_CAMARA/api-dinamica/v1.0/proposicoes.json?legislatura=54
+Exemplo de utilização: http://dados-teste.camara.gov.br/dados/API/proposicoes.json?legislatura=54
 
 Atualmente os valores possíveis para legislatura são:
 
@@ -64,13 +64,13 @@ Atualmente os valores possíveis para legislatura são:
 * 54 (período que engloba 01/01/2011 a 31/12/2014)
 
 Código da Proposição: cod_proposicao
-Exemplo de utilização: URL_DA_CAMARA/api-dinamica/v1.0/proposicoes.json?cod_proposicao=PEC 300/2002
+Exemplo de utilização: http://dados-teste.camara.gov.br/dados/API/proposicoes.json?cod_proposicao=PEC 300/2002
 
 Nome do Parlamentar Autor da proposição: autor
-Exemplo de utilização: URL_DA_CAMARA/api-dinamica/v1.0/proposicoes.json?autor=Nome do Parlamentar
+Exemplo de utilização: http://dados-teste.camara.gov.br/dados/API/proposicoes.json?autor=Nome do Parlamentar
 
 Tipo Propositivos: tipo_proposicao
-Exemplo de utilização: URL_DA_CAMARA/api-dinamica/v1.0/proposicoes.json?tipo_proposicao='PEC'
+Exemplo de utilização: http://dados-teste.camara.gov.br/dados/API/proposicoes.json?tipo_proposicao='PEC'
 
 Os valores possíveis para tipo_proposicao são:
 
@@ -82,7 +82,7 @@ Os valores possíveis para tipo_proposicao são:
 * MPV - Medida Provisória
 
 Gênero do Parlamentar Autor da Proposição: cod_genero
-Exemplo de utilização: URL_DA_CAMARA/api-dinamica/v1.0/proposicoes.json?cod_sexo='F'
+Exemplo de utilização: http://dados-teste.camara.gov.br/dados/API/proposicoes.json?cod_sexo='F'
 
 os valores possíveis de utilização para cod_genero são: 
 
@@ -90,31 +90,31 @@ os valores possíveis de utilização para cod_genero são:
 * M - Masculino
 
 Partido Político do Autor da Proposição: partido_politico
-Exemplo de utilização: URL_DA_CAMARA/api-dinamica/v1.0/proposicoes.json?partido_politico=SIG
+Exemplo de utilização: http://dados-teste.camara.gov.br/dados/API/proposicoes.json?partido_politico=SIG
 
 onde SIG representa a Sigla do Partido
 
 
 Data de Apresentação da Proposição:
-Exemplo de utilização: URL_DA_CAMARA/api-dinamica/v1.0/proposicoes.json?data_apresentacao_inicial=14/01/2013&data_apresentacao_final=14/01/2014
+Exemplo de utilização: http://dados-teste.camara.gov.br/dados/API/proposicoes.json?data_apresentacao_inicial=14/01/2013&data_apresentacao_final=14/01/2014
 
 onde o campo data_apresentacao_inicial representa o início do intervalo desejado e o campo 
 data_apresentacao_final representa o final do intervalo desejado.
 
 Data de Veto Total da Proposição:
-Exemplo de utilização: URL_DA_CAMARA/api-dinamica/v1.0/proposicoes.json?=data_veto_inicial=14/01/2013&=data_veto_final=14/01/2014
+Exemplo de utilização: http://dados-teste.camara.gov.br/dados/API/proposicoes.json?=data_veto_inicial=14/01/2013&=data_veto_final=14/01/2014
 
 onde o campo data_veto_inicial representa o início do intervalo desejado e o campo 
 data_veto_final representa o final do intervalo desejado.
 
 Palavras na Ementa:
-Exemplo de utilização: URL_DA_CAMARA/api-dinamica/v1.0/proposicoes.json?ementa=Violencia Doméstica
+Exemplo de utilização: http://dados-teste.camara.gov.br/dados/API/proposicoes.json?ementa=Violencia Doméstica
 
 onde o campo ementa pode conter palavras constantes na ementa da proposição
 
 
 Palavras na Indexação:
-Exemplo de utilização: URL_DA_CAMARA/api-dinamica/v1.0/proposicoes.json?indexação=Violencia Doméstica
+Exemplo de utilização: http://dados-teste.camara.gov.br/dados/API/proposicoes.json?indexação=Violencia Doméstica
 
 onde o campo indexação pode conter palavras constantes na ementa da proposição
 
